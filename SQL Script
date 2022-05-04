@@ -1,0 +1,4 @@
+SELECT prods.name as Product , cats.name as Category
+FROM [Products] as prods
+left join [Categories] as cats
+ON prods.categoryID = cats.id;
